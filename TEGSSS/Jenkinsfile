@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/anya-2601/TEGSSS.git'
+                git branch: 'main', url: 'https://github.com/dhanyabu2601/TEGSSS.git'
             }
         }
 
